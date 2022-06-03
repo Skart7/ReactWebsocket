@@ -1,0 +1,30 @@
+@import '../vars.scss';
+
+.standard {
+    background-color: $background-default;
+
+    &.small {
+        box-shadow: 0px 0px 3px 0px rgba(56, 58, 61, 0.25);
+    }
+    &.medium {
+        box-shadow: 0px 0px 5px 3px rgba(56, 58, 61, 0.25);
+    }
+    &.large {
+        box-shadow: 0px 0px 15px 3px rgba(56, 58, 61, 0.25);
+    }
+}
+
+.rounded {
+    border-radius: 12px;
+    background-color: $background-default;
+
+    &.small {
+        box-shadow: 0px 0px 5px 0px rgba(56, 58, 61, 0.25);
+    }
+    &.medium {
+        box-shadow: 0px 0px 5px 3px rgba(56, 58, 61, 0.25);
+    }
+    &.large {
+        box-shadow: 0px 0px 15px 3px rgba(56, 58, 61, 0.25);
+    }
+}

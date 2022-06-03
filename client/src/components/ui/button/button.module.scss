@@ -1,0 +1,216 @@
+@import '../vars.scss';
+
+.text {
+    outline: none;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    background: none;
+    transition: background .15s linear;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    font-family: $text;
+
+    &.fullWidth {
+        width: 100%;
+    }
+    &.small {
+        padding: 8px 10px;
+        font-size: 0.781rem;
+    }
+    &.medium {
+        padding: 13px 13px;
+        font-size: 0.8rem;
+    }
+    &.large {
+        padding: 16px 15px;
+        font-size: 0.9rem;
+    }
+    &.primary {
+        color: $primary;
+    
+        &:hover {
+            background-color: rgba($primary, 0.1);
+        }
+        &:focus {
+            background-color: rgba($primary, 0.1);
+        }
+        &:active {
+            background-color: rgba($primary, 0.55);
+        }
+    }
+    &.secondary {
+        color: $secondary;
+    
+        &:hover {
+            background-color: rgba($secondary, 0.1);
+        }
+        &:focus {
+            background-color: rgba($secondary, 0.1);
+        }
+        &:active {
+            background-color: rgba($secondary, 0.55);
+        }
+    }
+    &.error {
+        color: $error;
+    
+        &:hover {
+            background-color: rgba($error, 0.1);
+        }
+        &:focus {
+            background-color: rgba($error, 0.1);
+        }
+        &:active {
+            background-color: rgba($error, 0.55);
+        }
+    }
+}
+
+.contained {
+    outline: none;
+    padding: 12px 12px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background .15s linear;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    font-family: $text;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.4);
+
+
+    &.fullWidth {
+        width: 100%;
+    }
+    &.small {
+        padding: 8px 10px;
+        font-size: 0.781rem;
+    }
+    &.medium {
+        padding: 13px 13px;
+        font-size: 0.8rem;
+    }
+    &.large {
+        padding: 16px 15px;
+        font-size: 0.9rem;
+    }
+    &.primary {
+        background-color: $primary;
+        color: $primary-text;
+    
+        &:hover {
+            background-color: rgba($primary, 0.9);
+        }
+        &:focus {
+            background-color: rgba($primary, 0.9);
+        }
+        &:active {
+            background-color: rgba($primary, 0.95);
+        }
+    }
+    &.secondary {
+        background-color: $secondary;
+        color: $secondary-text;
+    
+        &:hover {
+            background-color: rgba($secondary, 0.9);
+        }
+        &:focus {
+            background-color: rgba($secondary, 0.9);
+        }
+        &:active {
+            background-color: rgba($secondary, 0.95);
+        }
+    }
+    &.error {
+        background-color: $error;
+        color: $background-default;
+    
+        &:hover {
+            background-color: rgba($error, 0.9);
+        }
+        &:focus {
+            background-color: rgba($error, 0.9);
+        }
+        &:active {
+            background-color: rgba($error, 0.95);
+        }
+    }
+}
+
+.outlined {
+    outline: none;
+    padding: 12px 12px;
+    text-transform: uppercase;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background .15s linear;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    background: none;
+    font-family: $text;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2);
+
+    &.fullWidth {
+        width: 100%;
+    }
+    &.small {
+        padding: 8px 10px;
+        font-size: 0.781rem;
+    }
+    &.medium {
+        padding: 13px 13px;
+        font-size: 0.8rem;
+    }
+    &.large {
+        padding: 16px 15px;
+        font-size: 0.9rem;
+    }
+    &.primary {
+        color: $primary;
+        border: 1px solid $primary;
+    
+        &:hover {
+            background-color: rgba($primary, 0.1);
+        }
+        &:focus {
+            background-color: rgba($primary, 0.1);
+        }
+        &:active {
+            background-color: rgba($primary, 0.55);
+        }
+    }
+    &.secondary {
+        color: $secondary;
+        border: 1px solid $secondary;
+    
+        &:hover {
+            background-color: rgba($secondary, 0.1);
+        }
+        &:focus {
+            background-color: rgba($secondary, 0.1);
+        }
+        &:active {
+            background-color: rgba($secondary, 0.55);
+        }
+    }
+    &.error {
+        color: $error;
+        border: 1px solid $error;
+    
+        &:hover {
+            background-color: rgba($error, 0.1);
+        }
+        &:focus {
+            background-color: rgba($error, 0.1);
+        }
+        &:active {
+            background-color: rgba($error, 0.55);
+        }
+    }
+}

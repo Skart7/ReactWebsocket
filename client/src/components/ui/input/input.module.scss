@@ -1,0 +1,123 @@
+@import '../vars.scss';
+
+.standard {
+    outline: none;
+    border: none;
+    background: none;
+    transition: all .15s linear;
+    font-size: 0.781rem;
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+    font-family: $text;
+
+    &.fullWidth {
+        max-width: 100%;
+    }
+    &.small {
+        padding: 10px 12px;
+        font-size: 0.781rem;
+    }
+    &.medium {
+        padding: 13px 13px;
+        font-size: 0.8rem;
+    }
+    &.large {
+        padding: 16px 15px;
+        font-size: 0.9rem;
+    }
+    &.primary {
+        color: $primary;
+        border-bottom: 1px solid $primary-disabled;
+
+        &:hover {
+            background-color: rgba($primary, 0.05);   
+        }
+        &:focus {
+            background-color: rgba($primary, 0.05);  
+            border-bottom: 1px solid $primary;
+        }
+        &:active {
+            background-color: rgba($primary, 0.05); 
+            border-bottom: 1px solid $primary;
+        }
+    }
+    &.secondary {
+        color: $secondary;
+        border-bottom: 1px solid $secondary-disabled;
+
+        &:hover {
+            background-color: rgba($secondary, 0.05);   
+        }
+        &:focus {
+            background-color: rgba($secondary, 0.05);  
+            border-bottom: 1px solid $secondary;
+        }
+        &:active {
+            background-color: rgba($secondary, 0.05); 
+            border-bottom: 1px solid $secondary;
+        }
+    }
+}
+
+.outlined {
+    outline: none;
+    padding: 12px 12px;
+    border: none;
+    background: none;
+    border-radius: 12px;
+    transition: all .15s linear;
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+    font-family: $text;
+
+    &.fullWidth {
+        max-width: 100%;
+        width: 100%;
+    }
+    &.small {
+        padding: 10px 12px;
+        font-size: 0.781rem;
+    }
+    &.medium {
+        padding: 13px 13px;
+        font-size: 0.8rem;
+    }
+    &.large {
+        padding: 16px 16px;
+        font-size: 0.9rem;
+    }
+    &.primary {
+        color: $primary;
+        border: 1px solid $primary-disabled;
+
+        &:hover {
+            background-color: rgba($primary, 0.05);  
+            border: 1px solid $primary; 
+        }
+        &:focus {
+            background-color: rgba($primary, 0.05);  
+            border: 1px solid $primary;
+        }
+        &:active {
+            background-color: rgba($primary, 0.05); 
+            border: 1px solid $primary; 
+        }
+    }
+    &.secondary {
+        color: $secondary;
+        border: 1px solid $secondary-disabled;
+
+        &:hover {
+            background-color: rgba($secondary, 0.05);  
+            border: 1px solid $secondary; 
+        }
+        &:focus {
+            background-color: rgba($secondary, 0.05);  
+            border: 1px solid $secondary;
+        }
+        &:active {
+            background-color: rgba($secondary, 0.05); 
+            border: 1px solid $secondary; 
+        }
+    }
+}

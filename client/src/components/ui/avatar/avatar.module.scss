@@ -1,0 +1,135 @@
+@import '../vars.scss';
+
+.standard {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.781rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    transition: opacity .15s linear;
+    font-family: $title;
+
+    &.medium {
+        width: 40px;
+        height: 40px;
+    }
+    &.large {
+        width: 60px;
+        height: 60px;
+    }
+    &.primary {
+        background-color: $primary;
+        color: $primary-text;
+
+        &:hover {
+            opacity: 0.95;
+        }
+        &:focus {
+            opacity: 0.95;
+        }
+    }
+    &.secondary {
+        background-color: $secondary;
+        color: $secondary-text;
+
+        &:hover {
+            opacity: 0.95;
+        }
+        &:focus {
+            opacity: 0.95;
+        }
+    }
+}
+
+.outlined {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.781rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    transition: opacity .15s linear;
+    font-family: $title;
+
+    &.medium {
+        width: 40px;
+        height: 40px;
+    }
+    &.large {
+        width: 60px;
+        height: 60px;
+    }
+    &.primary {
+        border: 2px solid $primary;
+        background-color: rgba($primary, 0.45);
+        color: $primary;
+
+        &:hover {
+            opacity: 0.95;
+        }
+        &:focus {
+            opacity: 0.95;
+        }
+    }
+    &.secondary {
+        border: 2px solid $secondary;
+        background-color: rgba($secondary, 0.45);
+        color: $secondary;
+
+        &:hover {
+            opacity: 0.95;
+        }
+        &:focus {
+            opacity: 0.95;
+        }
+    }
+}
+
+.rounded {
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.781rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    transition: opacity .15s linear;
+    font-family: $title;
+
+    &.medium {
+        width: 40px;
+        height: 40px;
+    }
+    &.large {
+        width: 60px;
+        height: 60px;
+    }
+    &.primary {
+        background-color: $primary;
+        color: $primary-text;
+
+        &:hover {
+            opacity: 0.95;
+        }
+        &:focus {
+            opacity: 0.95;
+        }
+    }
+    &.secondary {
+        background-color: $secondary;
+        color: $secondary-text;
+
+        &:hover {
+            opacity: 0.95;
+        }
+        &:focus {
+            opacity: 0.95;
+        }
+    }
+}
